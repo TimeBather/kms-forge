@@ -1,0 +1,31 @@
+{
+  "name": "kms-forge",
+  "version": "1.0.0",
+  "description": "An adapter from KMS Providers to node-forge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieyi1393/kms-forge"
+  },
+  "type": "module",
+  "keywords": [
+    "kms",
+    "CA",
+    "nodejs",
+    "cloud"
+  ],
+  "author": {
+    "name": "xieyi",
+    "email": "xieyi@bcsite.cn"
+  },
+  "license": "LGPL-2.0-or-later",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.10",
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1",
+    "node-forge": "^0.10.0"
+  }
+}
